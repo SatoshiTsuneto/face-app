@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/common.css">
+    <title>認証画面ストリーミング</title>
+</head>
+
+<body>
+    <h1>認証画面ストリーミング</h1>
+    <h2 id="timeSet"></h2>
+    <iframe id="webstream" src="http://192.168.43.203:55555/javascript_simple.html"></iframe>
+    <p id="match">※ここに一致率が表示されます</p>
+    <div id="face_origin">
+        <img src="./images/sample.png" width="180px" height="320px" alt="元画像">
+        <p>比較対象画像</p>
+    </div>
+    <div id="face_object">
+        <img src="./images/sample.png" width="320px" height="180px" alt="撮影画像">
+        <p>撮影した画像</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
