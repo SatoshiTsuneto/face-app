@@ -7,7 +7,7 @@
 ### 使用するための準備
 - Dockerのインストールをしておく。インストールの方法は、以下のコマンドで行える。   
 `curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh`
-- mjpg-streamerを起動しておく。無い場合は、[ここを参考](https://qiita.com/MuAuan/items/b3abd4cff2f39aa1f2d0)に準備する。   
+- mjpg-streamerを起動しておく。無い場合は、[ここを参考](https://qiita.com/okaxaki/items/72226a0b0f5fab0ec9e9)に準備する。   
 ポート番号、IDとパスワード等は、環境によって変わるので、その都度変更する。
 - [このAPI](https://github.com/satotune/faceAPI)を起動しておく。無い場合は、クローンしてビルドする。   
 APIのIPアドレスは、実行環境によって変わるので、その都度変更する。
